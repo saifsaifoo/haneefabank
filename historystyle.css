@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+.filter{
+    position:absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    }
+    body{
+    z-index: -1;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+   /*.filter{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+   
+   background: rgb(238,174,202);
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+   }
+
+   .container {
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    right: 0%;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    float: right;
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #232d60;
+    margin-left: 50px;
+}
+#welcome{
+    position: absolute;
+    z-index: 2;
+    left: 35%;
+    top: 70%;
+    bottom: 50%;
+    color: #232d60;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+      
+}
+h1{
+    font-family: 'Yantramanav', sans-serif;
+    color: #232d60;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    letter-spacing: 1.5px;
+    
+}
+
+
+#sender{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 60%;
+    bottom: 40%;
+    transform: translate(-50%,-100%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(61, 47, 47, 0.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+   }
+
+  /* .receive{
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    top: 60%;
+    bottom: 50%;
+    color: #232d60;
+    font-family: 'Open Sans',Sans-serif;
+}
+
+
+   .received_transactions{
+       position: absolute;
+       z-index: 2;
+       left: 50%;
+       top: 70%;
+       transform: translate(-50%,10%);
+       width: 60%; 
+       border-collapse: collapse;
+       border-spacing: 0;
+       box-shadow: 0 2px 15px rgba(61, 47, 47, 0.7);
+       border-radius: 12px 12px 0 0;
+       overflow: hidden;
+      
+      }*/
+   
+      
+      
+   td , th{
+    padding: 5px 10px;
+    text-align: center;
+    
+   
+   }
+   th{
+    background-color:  rgb(238, 174, 202);
+    color: #fafafa;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+   }
+   tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+   }
+   tr:nth-child(even){
+    background-color: #eeeeee;
+   }
+</style>
+</head>
+</html>
+   
